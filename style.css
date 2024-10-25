@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 600px;
+    height: 450px;
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    border-radius: 10px;
+}
+.conteiner1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.conteiner1{
+    overflow: hidden;
+}
+
+h1{
+    font-family: "Fraunces", serif;
+    color: hsl(212, 21%, 14%);
+}
+
+
+
+.conteiner .conteiner2{
+    display: grid;
+    grid-template-rows: 45% 22% 33%;
+}
+.conteiner .conteiner2 .conteiner3{
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 0;
+}
+.conteiner .conteiner2 .conteiner3 p{
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 10px;
+}
+.conteiner .conteiner2 .conteiner4{
+    margin-left: 30px;
+    margin-right: 10px;
+    color: hsl(228, 12%, 48%);
+}
+.conteiner .conteiner2 .conteiner5{
+    display: grid;
+    grid-template-rows: 30% 30%;
+    margin-left: 30px;
+}
+.conteiner .conteiner2 .conteiner5 .coneiner6{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.conteiner .conteiner2 .conteiner5 .conteiner6 h2{
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+    font-size: 35px;
+    display: grid;
+}
+.conteiner .coneteiner2 .conteiner5 .conteiner6 p{
+    display: grid;
+    margin-top: 14px;
+    padding-left: 20px;
+    text-decoration: line-through;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+.conteiner .conteiner2 .conteiner5 .conteiner7 button{
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+    display: grid;
+    grid-template-columns: 30% 50%;
+}
+.conteiner .conteiner2 .conteiner5 .conteiner7 button img{
+    width: 18px;
+    height: 18px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.conteiner .conteiner2 .conteiner5 .conteiner7 button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 18px;
+    margin-top: 17px;
+}
